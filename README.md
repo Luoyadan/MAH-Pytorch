@@ -11,13 +11,19 @@ PyTorch implementation of our paper "Collaborative Learning for Extremely Low Bi
 
 
 ### Usage
-For traning with cascaded multihead structure on different datasets:
+For traning with the cascaded multihead structure on different datasets:
 ```shell
-python cascade_CIFAR-10.py
-python cascade_Flickr.py
-python cascade_NUS_WIDE.py
+python cascade_CIFAR-10.py --bits '4' --gpu '1' --batch-size 64
+python cascade_FLICKR.py --bits '4' --gpu '1' --batch-size 64
+python cascade_NUS_WIDE.py --bits '4' --gpu '1' --batch-size 64
 ```
 
+For traning with the flat multihead structure on different datasets:
+```shell
+python flat_CIFAR-10.py --bits '4' --gpu '1' --batch-size 64
+python flat_FLICKR.py --bits '4' --gpu '1' --batch-size 64
+python flat_NUS_WIDE.py --bits '4' --gpu '1' --batch-size 64
+```
 ## Citation
 Please cite the following paper in your publications if it helps your research:
     
