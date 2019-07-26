@@ -13,7 +13,9 @@ PyTorch implementation of our paper "Collaborative Learning for Extremely Low Bi
 ### Usage
 For traning with cascaded multihead structure on different datasets:
 ```shell
-python 
+python cascade_CIFAR-10.py
+python cascade_Flickr.py
+python cascade_NUS_WIDE.py
 ```
 
 ## Citation
