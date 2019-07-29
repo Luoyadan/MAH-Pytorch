@@ -15,8 +15,35 @@ matlab ./data/CIFAR-10/SaveFig.m
 - NUSWIDE dataset
 - MIRFlickr dataset
 ([referenced repo](https://github.com/jiangqy/DPSH-pytorch))
+
+
 ## Results
 
+### Mean Average Precision on CIFAR-10.
+<table>
+    <tr>
+        <td rowspan="2">Net Structure</td><td rowspan="2">PlatForm</td>    
+        <td colspan="4">Code Length</td>
+    </tr>
+    <tr>
+        <td >12 bits</td><td >24 bits</td> <td >32 bits</td><td >48 bits</td>  
+    </tr>
+    <tr>
+        <td >VGG-F</td><td >MatConvNet</td ><td > 0.713 </td> <td > 0.727 </td><td > 0.744</td><td > 0.757</td>  
+    </tr>
+    <tr>
+        <td >Alexnet</td><td >Pytorch</td ><td > 0.7505</td> <td > 0.7724 </td><td > 0.7758 </td> <td > 0.7828 </td>
+    </tr>
+    <tr>
+        <td >VGG-11</td><td >Pytorch</td ><td > 0.7655 </td> <td > 0.8042 </td><td > 0.8070 </td> <td > 0.8108 </td>
+    </tr>
+</table>
+
+
+### 
+![](./fig/CIFAR.png)
+![](./fig/CIFAR.png)
+![](./fig/CIFAR.png)
 ## Usage
 For traning with the cascaded multihead structure on different datasets:
 ```shell
