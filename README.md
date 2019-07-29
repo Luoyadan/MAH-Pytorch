@@ -29,7 +29,6 @@ matlab ./data/CIFAR-10/SaveFig.m
     <tr>
         <td >4 bits</td> <td >6 bits</td> <td >8 bits</td> <td >10 bits</td><td >12 bits</td>  
     </tr>
-   
     <tr>
         <td >MAH-flat</td><td >ResNet50</td ><td > 0.4759</td> <td > 0.8197 </td><td > 0.9339 </td> <td > 0.9335 </td> <td > 0.9503</td>
     </tr>
