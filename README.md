@@ -24,7 +24,7 @@ matlab ./data/CIFAR-10/SaveFig.m
 <table>
     <tr>
         <td rowspan="2">Method</td><td rowspan="2">Backbone</td>    
-        <td colspan="4">Code Length</td>
+        <td colspan="5">Code Length</td>
     </tr>
     <tr>
         <td >4 bits</td> <td >6 bits</td> <td >8 bits</td> <td >10 bits</td><td >12 bits</td>  
