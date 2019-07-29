@@ -42,7 +42,7 @@ matlab ./data/CIFAR-10/SaveFig.m
 
 
 ### Figures
-<img src="./fig/CIFAR.png" width = "300" height = "200" alt="CIFAR" align=center /><img src="./fig/NUSWIDE.png" width = "300" height = "200" alt="CIFAR" align=center /><img src="./fig/FLICKR.png" width = "300" height = "200" alt="CIFAR" align=center />
+<img src="./fig/CIFAR.png" width = "250" height = "200" alt="CIFAR" align=center /><img src="./fig/NUSWIDE.png" width = "250" height = "200" alt="CIFAR" align=center /><img src="./fig/FLICKR.png" width = "250" height = "200" alt="CIFAR" align=center />
 
 ## Usage
 For traning with the cascaded multihead structure on different datasets:
