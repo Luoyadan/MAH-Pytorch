@@ -7,10 +7,17 @@ PyTorch implementation of our paper "Collaborative Learning for Extremely Low Bi
 - PyTorch (version >= 0.4.1)
 
 
-### Download datasets
+### Datasets
+- CIFAR download the CIFAR-10 Matlab version [[Link]](https://www.cs.toronto.edu/~kriz/cifar.html) then run the script
+```shell
+matlab ./data/CIFAR-10/SaveFig.m
+```
+- NUSWIDE dataset
+- MIRFlickr dataset
+([referenced repo](https://github.com/jiangqy/DPSH-pytorch))
+## Results
 
-
-### Usage
+## Usage
 For traning with the cascaded multihead structure on different datasets:
 ```shell
 python cascade_CIFAR-10.py --bits '4' --gpu '1' --batch-size 64
