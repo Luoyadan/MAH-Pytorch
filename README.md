@@ -41,9 +41,9 @@ matlab ./data/CIFAR-10/SaveFig.m
 
 
 ### 
-![](./fig/CIFAR.png)
-![](./fig/CIFAR.png)
-![](./fig/CIFAR.png)
+![](./fig/CIFAR.png=200x300)
+![](./fig/CIFAR.png=200x300)
+![](./fig/CIFAR.png=200x300)
 ## Usage
 For traning with the cascaded multihead structure on different datasets:
 ```shell
