@@ -23,25 +23,23 @@ matlab ./data/CIFAR-10/SaveFig.m
 ### Mean Average Precision on CIFAR-10.
 <table>
     <tr>
-        <td rowspan="2">Net Structure</td><td rowspan="2">PlatForm</td>    
+        <td rowspan="2">Method</td><td rowspan="2">Backbone</td>    
         <td colspan="4">Code Length</td>
     </tr>
     <tr>
-        <td >12 bits</td><td >24 bits</td> <td >32 bits</td><td >48 bits</td>  
+        <td >4 bits</td> <td >6 bits</td> <td >8 bits</td> <td >10 bits</td><td >12 bits</td>  
+    </tr>
+   
+    <tr>
+        <td >MAH-flat</td><td >ResNet50</td ><td > 0.4759</td> <td > 0.8197 </td><td > 0.9339 </td> <td > 0.9335 </td> <td > 0.9503</td>
     </tr>
     <tr>
-        <td >VGG-F</td><td >MatConvNet</td ><td > 0.713 </td> <td > 0.727 </td><td > 0.744</td><td > 0.757</td>  
-    </tr>
-    <tr>
-        <td >Alexnet</td><td >Pytorch</td ><td > 0.7505</td> <td > 0.7724 </td><td > 0.7758 </td> <td > 0.7828 </td>
-    </tr>
-    <tr>
-        <td >VGG-11</td><td >Pytorch</td ><td > 0.7655 </td> <td > 0.8042 </td><td > 0.8070 </td> <td > 0.8108 </td>
+        <td >MAH-cascade</td><td >ResNet50</td ><td > 0.7460 </td> <td > 0.8950 </td><td > 0.9429 </td> <td > 0.9489 </td> <td > 0.9537 </td>
     </tr>
 </table>
 
 
-### Figures
+### Precision@5K Figures
 <img src="./fig/CIFAR.png" width = "250" height = "200" alt="CIFAR" align=center /><img src="./fig/NUSWIDE.png" width = "250" height = "200" alt="CIFAR" align=center /><img src="./fig/FLICKR.png" width = "250" height = "200" alt="CIFAR" align=center />
 
 ## Usage
