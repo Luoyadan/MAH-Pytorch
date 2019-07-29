@@ -14,6 +14,7 @@ matlab ./data/CIFAR-10/SaveFig.m
 ```
 - NUSWIDE dataset
 - MIRFlickr dataset
+
 ([referenced repo](https://github.com/jiangqy/DPSH-pytorch))
 
 
@@ -40,10 +41,9 @@ matlab ./data/CIFAR-10/SaveFig.m
 </table>
 
 
-### 
-![](./fig/CIFAR.png =200x300)
-![](./fig/CIFAR.png =200x300)
-![](./fig/CIFAR.png =200x300)
+### Figures
+<img src="./fig/CIFAR.png" width = "300" height = "200" alt="CIFAR" align=center />
+
 ## Usage
 For traning with the cascaded multihead structure on different datasets:
 ```shell
